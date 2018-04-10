@@ -1,5 +1,3 @@
-# node2vec
-
 Reference:
 
 node2vec: Scalable Feature Learning for Networks.
