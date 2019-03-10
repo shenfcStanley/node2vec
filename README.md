@@ -7,3 +7,8 @@ Knowledge Discovery and Data Mining, 2016.
 https://github.com/aditya-grover/node2vec
 
 https://github.com/lucashu1/link-prediction
+
+
+updating node2vec from python 2 to python 3:
+
+
