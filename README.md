@@ -12,7 +12,9 @@ https://github.com/lucashu1/link-prediction
 updating node2vec from python 2 to python 3:
 
 1. In node2vecLinkPred.py, 
+
      1.1  change "walks = [map(str, walk) for walk in walks]" to "walks = [list(map(str, walk)) for walk in walks]"
+     
      1.2  change "LogisticRegression(random_state=0)" to "LogisticRegression(random_state=0,solver='lbfgs')"
 
 2. In generateGraphPickle.py, 
